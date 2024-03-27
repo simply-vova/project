@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>My</strong> Portfolio</a>
+
+                <button class="dark-mode-btn">
+                    <img src="/img/icons/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+                    <img src="/img/icons/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+
+                </button>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./index.html"
+                            class="nav-list__link ">Projects</a></li>
+                    <li class="nav-list__item "><a href="./skills.html" class="nav-list__link">Skills</a></li>
+                    <li class="nav-list__item nav-list__link--active"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                </ul>
+
+
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- <header class="header">
+        
+            <div class="header__wrapper">
+                <h1 class="header__title">
+                    <strong>Hi, my name is <em>Alex</em></strong> <br>
+                     a CG Generalist
+                </h1>
+                <div class="header__text">
+                    <p>with passion for learning and creating.</p>
+                </div>
+                <a href="#!" class="btn">Download CV</a>
+            </div>
+    </header> -->
+
+    <main class="section">
+        <div class="container">
+            <h1 class="title-1"> Contacts </h1>
+            <ul class="content-list">
+               
+                <li class="content-list__item">
+                    <h2 class="title-2">
+                        <a href="https://t.me/AlCh_fm" target="_blank"">Telegram</a> / 
+                        <a href="https://wa.me/+77052040250" target="_blank"">WhatsApp</a></h2>
+                    <!-- <p><a href="https://wa.me/+77052040250" target="_blank"">Мой WhatsApp</a></p>
+                    <p><a href="https://t.me/AlCh_fm"> Мой Telegram</a></p> -->
+                </li>
+                <li class="content-list__item">
+                    <h2 class="title-2">Email</h2>
+                    <p><a href="mailto:webdev@protonmail.com">webdev@protonmail.com</a></p>
+
+                </li>
+
+                <li class="content-list__item">
+                    <h2 class="title-2">Location</h2>
+                    
+                    <p>Almaty, Kazakhstan</p>
+                    <iframe class="iframe__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186085.0994370431!2d76.9525157!3d43.2183046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e7d16c5cbab%3A0x3d44668fad986d76!2z0JDQu9C80LDRgtGL!5e0!3m2!1sru!2skz!4v1708495559367!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </li>
+
+            </ul>
+
+
+
+
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="#!"><img src="/img/icons/vk.svg" alt=""></a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="#!"><img src="/img/icons/instagram.svg" alt=""></a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="#!"><img src="/img/icons/twitter.svg" alt=""></a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="#!"><img src="/img/icons/gitHub.svg" alt=""></a>
+                    </li>
+
+                    <li class="social__item">
+                        <a href="#!"><img src="/img/icons/linkedIn.svg" alt=""></a>
+                    </li>
+
+                </ul>
+
+                <div class="copyright">
+                    <p>© 2022 frontend-dev.com</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+<script src="/js/main.js"></script>
+<script>
+    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+      key: "YOUR_API_KEY_HERE",
+      // Add other bootstrap parameters as needed, using camel case.
+      // Use the 'v' parameter to indicate the version to load (alpha, beta, weekly, etc.)
+    });
+  </script>
+
+</html>
